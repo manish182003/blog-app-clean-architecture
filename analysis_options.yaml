@@ -1,0 +1,12 @@
+include: package:flutter_lints/flutter.yaml
+
+linter:
+  rules:
+    # # Avoid using unnecessary 'const' instances if not needed
+    # unnecessary_const: false
+
+    # Prefer const constructors for stateless widgets and other cases
+    prefer_const_constructors: false
+
+    # Prefer const literals where possible, but you can set to 'false' to disable warnings
+    prefer_const_literals_to_create_immutables: false
